@@ -32,7 +32,8 @@ GEM
     jaro_winkler (1.5.1)
     jwt (2.1.0)
     multipart-post (2.3.0)
-    mustermann (1.0.3)
+    mustermann (2.0.2)
+      ruby2_keywords (~> 0.0.1)
     octokit (4.13.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     parallel (1.12.1)
@@ -41,7 +42,7 @@ GEM
     powerpack (0.1.2)
     public_suffix (5.0.1)
     rack (2.2.7)
-    rack-protection (2.0.4)
+    rack-protection (2.2.3)
       rack
     rainbow (3.0.0)
     rubocop (0.60.0)
@@ -57,12 +58,12 @@ GEM
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
-    sinatra (2.0.4)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.4)
+    sinatra (2.2.3)
+      mustermann (~> 2.0)
+      rack (~> 2.2)
+      rack-protection (= 2.2.3)
       tilt (~> 2.0)
-    tilt (2.0.8)
+    tilt (2.2.0)
     unicode-display_width (1.4.0)
 
 PLATFORMS
@@ -74,7 +75,7 @@ DEPENDENCIES
   jwt (~> 2.1)
   octokit (~> 4.0)
   rubocop
-  sinatra (~> 2.0)
+  sinatra (~> 2.2)
 
 BUNDLED WITH
    1.17.1
